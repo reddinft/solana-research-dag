@@ -21,7 +21,10 @@ import {
 import { pay } from './micropayment';
 import { processRequest } from './specialist';
 
-const PAYMENT_SOL = 0.001; // per research question
+const PAYMENT_SOL = 0.001; // per research question (specialist)
+// Total cost per query: 0.0012 SOL (0.001 specialist + 0.0002 protocol fee)
+const PROTOCOL_FEE_SOL = 0.0002;
+const PROTOCOL_TREASURY_SHORT = 'ArCugaYbH...9is';
 
 interface ResearchJob {
   id: number;
@@ -94,14 +97,15 @@ async function run(): Promise<void> {
     console.log(`  📍 Specialist spawned: ${specialist.publicKey.toBase58()}`);
     
     const payStart = Date.now();
-    console.log(`  💳 Sending ${PAYMENT_SOL} SOL payment...`);
+    console.log(`  💳 Sending ${PAYMENT_SOL} SOL to specialist + ${PROTOCOL_FEE_SOL} SOL protocol fee...`);
 
     const receipt = await pay(connection, orchestrator, specialist.publicKey, PAYMENT_SOL);
     const payTime = Date.now() - payStart;
     
-    console.log(`  ✅ Payment confirmed (${payTime}ms)`);
-    console.log(`     Tx: ${receipt.txSignature}`);
-    console.log(`     Slot: ${receipt.slot} | ${receipt.lamports} lamports`);
+    console.log(`  ✅ Payments confirmed (${payTime}ms)`);
+    console.log(`     Specialist Tx: ${receipt.txSignature}`);
+    console.log(`     Protocol Fee Tx: ${receipt.protocolFeeTx}`);
+    console.log(`     Slot: ${receipt.slot} | ${receipt.lamports} lamports + ${receipt.protocolFeeLamports} fee lamports`);
 
     const insightStart = Date.now();
     const insight = await processRequest({ question: job.question, receipt });
@@ -153,18 +157,24 @@ async function run(): Promise<void> {
   console.log('╚════════════════════════════════════════════╝\n');
 
   const finalBal = await getBalance(connection, orchestrator.publicKey);
-  const costSol = jobs.length * PAYMENT_SOL;
+  const specialistCostSol = jobs.length * PAYMENT_SOL;
+  const protocolCostSol = jobs.length * PROTOCOL_FEE_SOL;
+  const totalCostSol = specialistCostSol + protocolCostSol;
+  const costPerQuery = PAYMENT_SOL + PROTOCOL_FEE_SOL;
   
   console.log(`✅ Successful queries: ${successCount}/${jobs.length}`);
   console.log(`⏱️  Total time: ${totalTime}ms (${(totalTime / 1000).toFixed(2)}s)`);
   console.log(`🤖 AI tokens consumed: ${totalTokens}`);
-  console.log(`💳 Cost: ${costSol.toFixed(4)} SOL (${(costSol * 1_000_000).toFixed(0)} lamports)`);
-  console.log(`📈 Cost per query: ${(costSol / successCount).toFixed(6)} SOL`);
+  console.log(`💳 Specialist payments: ${specialistCostSol.toFixed(4)} SOL (${PAYMENT_SOL} × ${jobs.length} queries)`);
+  console.log(`💰 Protocol fee:    ${protocolCostSol.toFixed(4)} SOL total (${PROTOCOL_FEE_SOL} × ${jobs.length} queries)`);
+  console.log(`📊 Take rate:       16.7% of gross payments`);
+  console.log(`🏦 Treasury:        ${PROTOCOL_TREASURY_SHORT}`);
+  console.log(`📈 Total cost per query: ${costPerQuery.toFixed(4)} SOL`);
   console.log(`⚡ Speed: ${((jobs.length / (totalTime / 1000)).toFixed(1))} queries/sec`);
   console.log(`\n💰 Wallet status:`);
-  console.log(`   Initial: ${(finalBal + costSol).toFixed(6)} SOL`);
+  console.log(`   Initial: ${(finalBal + totalCostSol).toFixed(6)} SOL`);
   console.log(`   Final:   ${finalBal.toFixed(6)} SOL`);
-  console.log(`   Spent:   ${costSol.toFixed(6)} SOL`);
+  console.log(`   Spent:   ${totalCostSol.toFixed(6)} SOL (${specialistCostSol.toFixed(4)} specialist + ${protocolCostSol.toFixed(4)} protocol)`);
 
   console.log('\n✅ Research DAG demo complete.');
 }

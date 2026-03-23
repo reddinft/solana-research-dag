@@ -3,11 +3,13 @@
  *
  * Demonstrates agent-to-agent commerce at throughput:
  *   50 parallel landing page orchestrations (batches of 10)
- *   Each orchestration: pay UX specialist + pay copy specialist + protocol fee
- *   = 150 on-chain Solana Devnet transactions total
+ *   Each orchestration: pay UX specialist + pay copy specialist via PaymentSplitter program
+ *   = 100 on-chain Solana Devnet transactions total
  *
  * Orchestrator model: Ollama qwen3:1.7b (free, local)
- * Payment infrastructure: reuses micropayment.ts (x402-style SOL transfers)
+ * Payment infrastructure: PaymentSplitter Anchor program (trustless atomic fee split)
+ *   Program: BpnKFaaXrktxFS3rC1LKrs9ELP53JDymBRV4mMd2umGL (Devnet)
+ *   Each payment: 83.3% → specialist, 16.7% → protocol treasury (enforced on-chain)
  */
 
 import {
@@ -17,6 +19,7 @@ import {
   PublicKey,
   SystemProgram,
   Transaction,
+  TransactionInstruction,
   sendAndConfirmTransaction,
 } from '@solana/web3.js';
 import * as fs from 'fs';
@@ -27,11 +30,15 @@ import { DEVNET_RPC, loadOrCreateOrchestrator, makeSpecialistWallet, getBalance,
 
 const BATCH_SIZE = 10;
 const BATCH_DELAY_MS = 2000;
-const PAYMENT_SOL = 0.001;       // per specialist
-const PROTOCOL_FEE_SOL = 0.0002; // once per orchestration
+const TOTAL_PER_SPECIALIST_SOL = 0.0012; // total per specialist payment (83.3% to specialist, 16.7% to treasury)
 const TOTAL_ORCHESTRATIONS = 50;
 const OLLAMA_MODEL = 'qwen3:1.7b';
 const PROTOCOL_TREASURY = new PublicKey('ArCugaYbHumHTiwP9ArA5L2vHNgWrcVPuGSchYXhh9is');
+
+// PaymentSplitter Anchor program — trustless atomic fee split on Solana Devnet
+const PAYMENT_SPLITTER_PROGRAM_ID = new PublicKey('BpnKFaaXrktxFS3rC1LKrs9ELP53JDymBRV4mMd2umGL');
+// Anchor discriminator for process_payment instruction (from IDL)
+const PROCESS_PAYMENT_DISCRIMINATOR = Buffer.from([189, 81, 30, 198, 139, 186, 115, 23]);
 
 const PRODUCT_BRIEFS = [
   'ReddiOS: privacy-first AI chief of staff that runs local models on iPhone',
@@ -48,7 +55,7 @@ interface OrchestrationResult {
   product: string;
   ux_tx: string;
   copy_tx: string;
-  fee_tx: string;
+  fee_tx: string; // same as ux_tx — protocol fee is bundled in each payment tx
   ux_output: string;
   copy_output: string;
   time_ms: number;
@@ -90,26 +97,39 @@ async function callOllama(prompt: string): Promise<string> {
   }
 }
 
-// ─── Payments ───────────────────────────────────────────────────────────────
+// ─── Payments via PaymentSplitter program ───────────────────────────────────
 
-async function transferSol(
+/**
+ * Pay a specialist via the PaymentSplitter on-chain program.
+ * Atomically splits: 83.3% → specialist, 16.7% → protocol treasury.
+ * The split is enforced by Solana validators — cannot be bypassed.
+ */
+async function paySpecialist(
   connection: Connection,
   payer: Keypair,
-  recipient: PublicKey,
-  solAmount: number
+  specialist: PublicKey,
+  totalSol: number
 ): Promise<string> {
-  const lamports = Math.floor(solAmount * LAMPORTS_PER_SOL);
-  const tx = new Transaction().add(
-    SystemProgram.transfer({
-      fromPubkey: payer.publicKey,
-      toPubkey: recipient,
-      lamports,
-    })
-  );
+  const totalLamports = Math.floor(totalSol * LAMPORTS_PER_SOL);
 
-  return sendAndConfirmTransaction(connection, tx, [payer], {
-    commitment: 'confirmed',
+  // Encode u64 amount as little-endian 8 bytes (Borsh)
+  const amountBuf = Buffer.alloc(8);
+  amountBuf.writeBigUInt64LE(BigInt(totalLamports), 0);
+  const data = Buffer.concat([PROCESS_PAYMENT_DISCRIMINATOR, amountBuf]);
+
+  const ix = new TransactionInstruction({
+    programId: PAYMENT_SPLITTER_PROGRAM_ID,
+    keys: [
+      { pubkey: payer.publicKey,            isSigner: true,  isWritable: true  },
+      { pubkey: specialist,                 isSigner: false, isWritable: true  },
+      { pubkey: PROTOCOL_TREASURY,          isSigner: false, isWritable: true  },
+      { pubkey: SystemProgram.programId,    isSigner: false, isWritable: false },
+    ],
+    data,
   });
+
+  const tx = new Transaction().add(ix);
+  return sendAndConfirmTransaction(connection, tx, [payer], { commitment: 'confirmed' });
 }
 
 // ─── Single orchestration ───────────────────────────────────────────────────
@@ -128,13 +148,13 @@ async function runOrchestration(
   const uxPrompt = `You are a UX specialist. Given this product brief, return the optimal landing page sections and layout structure. The sections array must contain 5 to 7 concrete section names and must never be empty. Use practical landing page section names like Hero, Problem, Features, How It Works, Social Proof, Pricing, FAQ, CTA. Brief: ${brief}. Return JSON only in this exact shape: {"sections": ["Hero", "Problem", "How It Works", "Features", "CTA"], "hero_layout": "split-screen"}`;
   const copyPrompt = `You are a web copywriter. Given this product brief, write landing page copy. Brief: ${brief}. Return JSON only: {"headline": "string", "subheadline": "string", "cta": "string", "hero_body": "string"}`;
 
-  const uxTx = await transferSol(connection, orchestrator, uxSpecialist.publicKey, PAYMENT_SOL);
+  // Pay UX specialist via PaymentSplitter program (atomic split: 83.3% spec / 16.7% treasury)
+  const uxTx = await paySpecialist(connection, orchestrator, uxSpecialist.publicKey, TOTAL_PER_SPECIALIST_SOL);
   const uxOutput = await callOllama(uxPrompt);
 
-  const copyTx = await transferSol(connection, orchestrator, copySpecialist.publicKey, PAYMENT_SOL);
+  // Pay copy specialist via PaymentSplitter program (atomic split: 83.3% spec / 16.7% treasury)
+  const copyTx = await paySpecialist(connection, orchestrator, copySpecialist.publicKey, TOTAL_PER_SPECIALIST_SOL);
   const copyOutput = await callOllama(copyPrompt);
-
-  const feeTx = await transferSol(connection, orchestrator, PROTOCOL_TREASURY, PROTOCOL_FEE_SOL);
 
   const time_ms = Date.now() - start;
 
@@ -143,7 +163,7 @@ async function runOrchestration(
     product: brief,
     ux_tx: uxTx,
     copy_tx: copyTx,
-    fee_tx: feeTx,
+    fee_tx: copyTx, // protocol fee bundled in each payment tx — no separate fee tx needed
     ux_output: uxOutput,
     copy_output: copyOutput,
     time_ms,
@@ -157,7 +177,7 @@ async function ensureBalance(connection: Connection, orchestrator: Keypair): Pro
   console.log(`  Orchestrator: ${orchestrator.publicKey.toBase58()}`);
   console.log(`  Balance: ${bal.toFixed(4)} SOL`);
 
-  const MIN_NEEDED = TOTAL_ORCHESTRATIONS * (PAYMENT_SOL * 2 + PROTOCOL_FEE_SOL) + 0.05;
+  const MIN_NEEDED = TOTAL_ORCHESTRATIONS * (TOTAL_PER_SPECIALIST_SOL * 2) + 0.05;
 
   if (bal >= MIN_NEEDED) {
     console.log(`  ✅ Sufficient balance (need ~${MIN_NEEDED.toFixed(4)} SOL)\n`);
@@ -322,9 +342,11 @@ async function main(): Promise<void> {
   // Tally results
   const successful = allResults.filter(r => !r.error).length;
   const failed = allResults.filter(r => r.error).length;
-  const totalTxs = successful * 3;
-  const specialistSolPaid = successful * PAYMENT_SOL * 2;
-  const protocolFeesSol = successful * PROTOCOL_FEE_SOL;
+  const totalTxs = successful * 2; // 2 program txs per orchestration (fee bundled in each)
+  const specialistAmountPerTx = TOTAL_PER_SPECIALIST_SOL * 833 / 1000;
+  const protocolAmountPerTx = TOTAL_PER_SPECIALIST_SOL - specialistAmountPerTx;
+  const specialistSolPaid = successful * specialistAmountPerTx * 2;
+  const protocolFeesSol = successful * protocolAmountPerTx * 2;
   const throughputOrch = successful / totalTimeSec;
   const throughputTx = totalTxs / totalTimeSec;
 
@@ -338,10 +360,11 @@ async function main(): Promise<void> {
   console.log(`✅ Successful orchestrations: ${successful}/${TOTAL_ORCHESTRATIONS}`);
   if (failed > 0) console.log(`❌ Failed: ${failed}`);
   console.log(`⏱️  Total time: ${totalTimeSec.toFixed(0)}s`);
-  console.log(`🔗 Total on-chain transactions: ${totalTxs}`);
-  console.log(`💳 Specialist payments: ${specialistSolPaid.toFixed(4)} SOL (${successful} × 0.001 × 2 specialists)`);
-  console.log(`💰 Protocol fees collected: ${protocolFeesSol.toFixed(4)} SOL (${successful} × 0.0002)`);
-  console.log(`📊 Protocol take rate: 16.7%`);
+  console.log(`🔗 Total on-chain transactions: ${totalTxs} (via PaymentSplitter program)`);
+  console.log(`💳 Specialist payments: ${specialistSolPaid.toFixed(4)} SOL (${successful} × ${specialistAmountPerTx.toFixed(4)} × 2 specialists)`);
+  console.log(`💰 Protocol fees collected: ${protocolFeesSol.toFixed(4)} SOL (bundled atomically in each program tx)`);
+  console.log(`📊 Protocol take rate: 16.7% (enforced by PaymentSplitter on-chain)`);
+  console.log(`⛓️  Program: BpnKFaaXrktxFS3rC1LKrs9ELP53JDymBRV4mMd2umGL`);
   console.log(`⚡ Throughput: ${throughputOrch.toFixed(2)} orchestrations/sec | ${throughputTx.toFixed(2)} txs/sec`);
   console.log(`🌐 Network: Solana Devnet`);
 

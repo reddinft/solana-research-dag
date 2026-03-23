@@ -1,0 +1,512 @@
+{
+  "run_timestamp": "2026-03-23T09:09:09.166Z",
+  "total_orchestrations": 50,
+  "successful": 50,
+  "failed": 0,
+  "total_transactions": 150,
+  "total_time_seconds": 275.83,
+  "specialist_sol_paid": 0.1,
+  "protocol_fees_sol": 0.01,
+  "orchestrations": [
+    {
+      "id": 1,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "2pQPJ4iYcGUdiKMVXUymCVtVpF8ZEj7GyJiZNw1xhmA9RX5hR9X8WVKQMXzTgtW9Cm6Mms1g4rwju8x9F6iYGjum",
+      "copy_tx": "21eWrEAGP8TJrscDATYsJdh5U4jsDGiBRwFbGaAHcCeRYTNUeMHZ2dx8rKpxk5URsEBd5XRxQW7ontasc99wmcnp",
+      "fee_tx": "4dopvPvkQsmpJvTeePX5NjHAYZMQKmMuv3UJ1G1KxHyQbPLkFAN4fNDUiFMaDwQQvGDu6HZh9sQmAUjZPjZANCvc",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your AI Experience with ReddiOS\", \"subheadline\": \"Privacy-First AI Assistant for Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the future of AI with ReddiOS — a privacy-first AI chief of staff that runs local models on your iPhone. Built with security and performance in mind, ReddiOS ensures your data stays private and your device runs smoothly. Enjoy seamless, secure, and powerful AI experiences without the risks of cloud-based models. Join thousands of users who trust ReddiOS for their daily AI needs.\"}",
+      "time_ms": 4588
+    },
+    {
+      "id": 2,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "SEz5WKPc7ujxsNaeqDW72p97rrtinhVrTa24KJaTB4RfEgThNStGep1WZACxcTuS6s1T2jZ2s3aSAgHhrgmBpsh",
+      "copy_tx": "s2qaJjXSBdrMZWf9UTQ5gAkFr2ceTyoEopRsE8CMRVTH6HEbv1XMA9tW892QH4GfYeg4nPBCE1DkZhsKeQW7qXS",
+      "fee_tx": "4Awxsu9zyU9oY831EDB1eG9eHhrB5KKyW8UwRMXLDVSaKSfY84CnxvkmXgsicUN6fZtxZgGuKB2cekVyAckBj6zT",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Data with ReddiOS\", \"subheadline\": \"Privacy-First AI for Local Model Execution on iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of local AI with ReddiOS. Our privacy-first AI chief of staff runs powerful local models on your iPhone, ensuring your data stays secure and private. Enjoy seamless performance and control over your AI experiences. Start today and take control of your digital privacy.\"}",
+      "time_ms": 4530
+    },
+    {
+      "id": 3,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "7KRxwdnBhqguzikjmjqdvHcpMC6BJdeGtvNZZCfAbFvfDL2wKYrZvS4VXuDUkytHYfPZLd7vpSvc4kXXT3foK1v",
+      "copy_tx": "61o63FdUQQVhTYX8tp8qZq6hTvL6tkZTi6e4SSRnctHX54rXeG2c42nBpAJJb19zMH635yurP5MDupCsLELZYtsP",
+      "fee_tx": "2GYj1GMD8AaaiC6GWdBsznT4Yogv1r1MxJjQZsKHjXnxTNzFbmuMfFeFNYkwU2C4H6nYQo9mLJBYrwkrbVKzDWQD",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your AI Future with ReddiOS\", \"subheadline\": \"Privacy-First AI for Local Model Execution on iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. Built with security and performance in mind, it ensures your data stays private and your device runs smoothly. Now, you can access powerful AI features without compromising your privacy. Join the future of secure, local AI.\"}",
+      "time_ms": 4800
+    },
+    {
+      "id": 4,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "4EtPS6EgHRHWJ4VRyexsQpTZfFSGQdeHYX9Gqc9S7ofNyESi2sgdZFvzevWJN7p3tv9FqmTpeeNR5VGWmZhBeDXd",
+      "copy_tx": "53VZWusjwpbxtixYTbHkyM1jzLHJrngVLqnfwGRPHKYfcWQ1pUqn39gNcPEMji63P86rcxMBn8QuPwWqeJ7JhWYR",
+      "fee_tx": "XrCH6zGcch7io9X8XSpThbJkFCxgzBSR35n19KsPYyc9yWzLLnNMXgpasKpryhPPhnUn78PYMUDFZevV1ovVkjE",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your AI Experience with ReddiOS\", \"subheadline\": \"Privacy-First AI Chief of Staff for Local Model Execution on iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. Enjoy seamless performance, enhanced security, and full control over your data. Start unlocking the future of intelligent, secure computing today.\"}",
+      "time_ms": 4830
+    },
+    {
+      "id": 5,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "57vQT4rcK7FehqM2M6mb1RmHkRvj1mfmtHfNX6yr6AXr27y4WUa8my1AQhaNfagmU9bVvAwKTdUybmUmqEHV8VEH",
+      "copy_tx": "m7zNa84g3nQFASXzEfATeG8F6eAx3qJw2SFihNZsVoUE8vhgubR7LuXYwH1cwoVuNPeDFzwfyXF5rAtcDANQYf6",
+      "fee_tx": "2QKkmYhzKyzKBtvphc8Awvipqoxfu4b3UzQmuPJrggDmJ5igJq6k1KsKuSJ4TdwxMUtqBeXToTiK1US1dRt1xcaj",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Future with ReddiOS\", \"subheadline\": \"Privacy-First AI That Runs Local Models on Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. Built with security and privacy in mind, it delivers seamless performance and protects your data at every step. Whether you're working, learning, or creating, ReddiOS ensures your digital life is safe, fast, and powerful. Join the future of AI—where your data is your own.\"}",
+      "time_ms": 5159
+    },
+    {
+      "id": 6,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "JGm6dSiaaZeYEadtQh3ghtYxmK4DN6PZoHjZsAx7kUKC6bKySXpZvi49Ufdzww3VvRFc9vR9ghnVnh5f4XmK8TQ",
+      "copy_tx": "4Y6P9ifqdLAHG6BtQTJ2XNi5AEQQS5n1kqzYuY2n6xKdXq7R38xDmr8j8Y9T1e2sufV8fQTDGrtsZB8ceHnokUd",
+      "fee_tx": "5QqwDEv2wQh2s5BV7dfEGiRkFJeJvFCBtpLxsCYXgnybQSv5SJshPKVhn3Yonacgy6e9qrdLxTZPUpzTV31a7rou",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Future with ReddiOS\", \"subheadline\": \"Privacy-First AI That Runs Local Models on Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. Protect your data, enhance your productivity, and enjoy seamless, secure AI experiences. Download ReddiOS today and take control of your digital life.\"}",
+      "time_ms": 4915
+    },
+    {
+      "id": 7,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "4B249aeEVTsAQzoc4nGNkM63VffhAN8ExX33Eu8QPepAPLhfqbazLxPp1wfSFArcb6DDarXaXnzydMEDZYjhJfiy",
+      "copy_tx": "24Nzje9B44JcBmtj1VEyjL6xsMSjwCm7qN2U6yWLp1HTdP9x3YPNNoTQGPDe2yMAF7g1GyyZuRDutfdjUaYy5gKs",
+      "fee_tx": "4R7KHQu9B5S8DrAAXeJyN98BvKorTY5qZatVobrAoQ9HBf5NK5X4mie6WgNabrLpXUbr32qJ54ZnWkRY59GpRb1u",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Data with ReddiOS\", \"subheadline\": \"Privacy-First AI That Runs Local Models on Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Protect your privacy with ReddiOS — the privacy-first AI chief of staff that runs local models on your iPhone. Built for security, speed, and control, ReddiOS ensures your data stays private and your devices remain fast. Experience the future of AI without the risks. Download now and take control of your digital life.\"}",
+      "time_ms": 5007
+    },
+    {
+      "id": 8,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "4mmA5xNEd8WyNKkBMkKvzfpZYQr3mdggiznSx7uqkmkgFk8Z9EzGUmpfmFGSRNraW5VeVsRwzuYogxLQMcexhxSD",
+      "copy_tx": "5XVGhSbgz1oPerT1r4CKKxa6HJcLYvMufAMrBLKZvgXRwUQxMPP29VwrtBgAXF5wVeAm4FGoTVZMSpwCQBtgjEBL",
+      "fee_tx": "4K9rXun7VmqvimWFHYSYUn9vm9XYRu5pfqGUTuntVvYqnNKxDRPHhxohMTCRsajoVyXuMgb6kYFJDKJd7dqrxEeo",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Future with ReddiOS\", \"subheadline\": \"Privacy-First AI That Runs Local Models on Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. It ensures your data stays private, fast, and secure. With ReddiOS, you control your experience—without compromising your privacy. Discover the future of smart, safe, and powerful AI on your device.\"}",
+      "time_ms": 4856
+    },
+    {
+      "id": 9,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "55DEdUXbNB24jQCypU2VJ3Ws7nGHXM31nsANtxKQn5Q6aXx1CoeYQ9xW3rPzkRW3X46aGxTUkcwiuWTbYTZJA8oj",
+      "copy_tx": "FoPgHBahjz6uj7Y3qkpC1CEfk2CSpo7yVixczdTDf8aBvPm8z5wnK3hBMeMx6BuX22hpzAmxmaNCjmd6UQEeYLa",
+      "fee_tx": "65bUgthtMSGvWeD5yiSnF3Jd3RAjCp7Skma7QTs5vZiFS5vdgnL9fmrxTuLCSzBGa5Pqy3rvDzXxKmCu5WtyVvez",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your Data with ReddiOS\", \"subheadline\": \"Privacy-First AI That Runs Local Models on Your iPhone\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the future of privacy with ReddiOS — the AI chief of staff that runs local models on your iPhone. Built with security in mind, ReddiOS ensures your data remains private and protected. Whether you're using iOS or Android, ReddiOS delivers powerful, secure AI experiences without compromising your privacy. Start your free trial today and take control of your digital life.\"}",
+      "time_ms": 4716
+    },
+    {
+      "id": 10,
+      "product": "ReddiOS: privacy-first AI chief of staff that runs local models on iPhone",
+      "ux_tx": "4tx1ASzVuJDL1JyDVt7hYYEPwowyKKmqWc63TuPtJLKkXTQyXqM4xXxSbb2KZq2SqZmhwVUCaEg66NqA12vazVyN",
+      "copy_tx": "5HubLSSgX6FhDfPN9fFjhcK7eC9jZLH3hhj9cYSXiDT7cg5YfYfgqxYoaQvejqp5kLBGYQKP5kk4fhoM2BH6SuLz",
+      "fee_tx": "Aq5KuHL7ZLb6k5XfgzE8Xx5sZEzsVAtBzX7RqR27pm6yeJX9XwKXZ4mH396ptYKtY17iKqaBLRgXThikQeRebCV",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Secure Your AI Experience with ReddiOS\", \"subheadline\": \"Privacy-First AI for Local Model Execution on iPhone\", \"cta\": \"Download ReddiOS Today!\", \"hero_body\": \"Experience the power of AI without the risks. ReddiOS is your privacy-first AI chief of staff, designed to run local models on your iPhone. It securely processes data locally, ensuring your information remains private and protected. With seamless performance and advanced features, ReddiOS empowers you to use AI without compromising your privacy. Start your free trial today and unlock the future of secure AI on your device.\"}",
+      "time_ms": 4752
+    },
+    {
+      "id": 11,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "5AD4XCLh8hKBagwPw68sxVPvG2qAFj6MiND1WM9mnwmjC5HPzyQV7W8RHScKedb7atPUbEhkur45zxxmbfhAigvS",
+      "copy_tx": "3HjrfscnzApD8weDTerdLVHYvpUw2d9Hbq6Vd474BLJU74iTpqvocHNidfsud3nkx9U6xhqBUphtHUxTWbhEtFwK",
+      "fee_tx": "2vqPGxhScy5S4yUUjDeQStKyXMsvgo637qiMYs6F2M5Xa2ZwqNftwmfKZri7kfjNEL2oMcvQHQzacfqBzgfaBAct",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Revolutionize Your Mobile Experience with SandSync\",\n  \"subheadline\": \"Real-time offline-first sync engine for mobile apps, powered by PowerSync.\",\n  \"cta\": \"Get Started Now\",\n  \"hero_body\": \"Experience seamless, real-time synchronization without relying on an internet connection. SandSync ensures your data is always up to date, whether you're on the go or in a low-bandwidth environment. With PowerSync, your mobile apps sync effortlessly, keeping your data safe and synchronized across all devices. Experience the future of mobile app development with reliable, intelligent sync that works anywhere, anytime.\"\n}",
+      "time_ms": 5107
+    },
+    {
+      "id": 12,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "3YH1DnRsx8J6EpTeDgzVtLV2FdLb5RHngvNz62Xa5mDVqB6uB8zbeKegPwV4GXBrMb5GKSz15Pprbdg9hzEnc49V",
+      "copy_tx": "2z7nDVdrgX949R7dqnEXXs3MUVtwSbLXXYGMmRyEXdwU2R29F6SS1xPyKRbG6r8ERivN1vaF2gaoqSkbYEmumfZL",
+      "fee_tx": "2CahNGZdEgJWoVkNSWBkoDR2a5szyXkebZ3txek68AnecYN3c76mTUMZRKeRp5LL1rcjK6dTgmXTFbWEdkRUXz9F",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Sync Your Data in Real Time, Anywhere\", \"subheadline\": \"PowerSync makes mobile apps work seamlessly even when you're offline\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the future of mobile app synchronization with SandSync. Built on PowerSync, our real-time offline-first engine ensures your data stays synchronized instantly, no matter where you are. Stay connected, stay productive—without losing your work. Download now and transform how you work with mobile apps.\"}",
+      "time_ms": 4593
+    },
+    {
+      "id": 13,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "3mFv4F7BaQv8cEgS4TP2SLzy48Z6RbmnbQUDgdCgmZyHj72GiaqVH5PJBkyNMWbGnXPrTVYqoxWZAs35afu3Sx8g",
+      "copy_tx": "8rsv3ukw2k5K7cqFhJexR3tMmi1RQ2UQBtMsrU9ZeeWzPDkPY7c4jbe96f4TkRGD3pZRUDEzATsv25huSVBpcnw",
+      "fee_tx": "2khPzGdD7wuniCtfd1fxu8hSiuofLm5ddMtiV34PeiScpSU2kzJoUc4zUonFdGekmAaLvz7FryU4jBAcBAVrAT6B",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Sync Your Data in Real Time, Anywhere\", \"subheadline\": \"PowerSync makes mobile apps work seamlessly even when you're offline.\", \"cta\": \"Get Started Now\", \"hero_body\": \"Experience the future of mobile app synchronization with SandSync. Our real-time offline-first engine ensures your data is always up to date, no matter where you are. With PowerSync, you can sync your app data instantly, automatically, and securely, even when you don't have an internet connection. Stay connected, stay productive—because your data shouldn't wait.\"}",
+      "time_ms": 4915
+    },
+    {
+      "id": 14,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "5TLDiBLPGzU1vaUdoPgrC3hjRknyLGp7jmx9N5sG5QWHBX67svpCLqX34nz4AoJqcaCbN6ELugyPGsSXmy1jQUgj",
+      "copy_tx": "4qnwCofBdZDmR7ogqcPpun8iMZQgK6tSsh8Qmkx7SPm95FdbJN5ugPbXrK6x7S7NRhAugup83mwCb3cVJQGSKa2d",
+      "fee_tx": "2SkCj8BK8nsvimPVfsyVGd5n2eADs6j7YJLWBCVvqHPKx5btpSL7JL8f7HPGkLSWeBhDpA3zxzDx1C1KAU1d6xb",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Sync Your Data in Real Time, Anywhere\",\n  \"subheadline\": \"PowerSync-powered mobile apps deliver seamless offline-first sync with instant updates and full control.\",\n  \"cta\": \"Get Started Now\",\n  \"hero_body\": \"Experience the future of mobile app synchronization with SandSync. Our real-time, offline-first sync engine ensures your data is always up to date, even when you're offline. With PowerSync, you get instant sync when you reconnect to the internet, and full control over your data. Whether you're working on the go or in a high-speed network, SandSync keeps your app running smoothly. Start syncing your data today and take control of your digital experience.\"\n}",
+      "time_ms": 5135
+    },
+    {
+      "id": 15,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "5xbnZ6ERmnixxYTkwetzJpvjkNn51qfkbsci7VKaP8fVqwLErmrjYjaS8mDLy2W7tpTfjYgzc1u5645iTefBzGsQ",
+      "copy_tx": "5S5dj5vRooh8SRDbd2jFCfZo4DdybHdJXTSsDG3v96EJg3YUj6hnhCM9gR41Ud4U6A4PjUGzsEaQ9G1GP6J719xq",
+      "fee_tx": "2Cq7AFaKBLLNpC5o8kQCiaHKcWthPLPWUSqZ8waZkCrMb3dDv5VfbJsm5KgxBB3yDoPgfMjDwMbgdhxWBvoRjSLY",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Sync Anywhere, Anytime\", \"subheadline\": \"Real-Time Offline-First Sync with PowerSync\", \"cta\": \"Get Started\", \"hero_body\": \"PowerSync is the ultimate sync engine for mobile apps, designed to keep your data always up to date, even when you're offline. With real-time sync, you'll never miss a beat—your data is always synchronized, and your app is always connected. Whether you're on the go or in the office, SandSync ensures your information is safe, secure, and always accessible. Experience the future of mobile app synchronization with PowerSync.\"}",
+      "time_ms": 5399
+    },
+    {
+      "id": 16,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "3TRuhMXYADC82PUiZGJSBmU22T1AKr7u5ofAn5q7WL8QwEUkK34HSasGYm3BeKhWjzSQJnvYgfBRg6gKzK52JWCx",
+      "copy_tx": "4JUYY9qPNKsQCvvrTL6yr3SYzJ9qWm4rqkLXbNDP4Lf1hZuZKHM1cxwzNx7BQQnr4mtLiGaZSqjC2Qrvu97PQe62",
+      "fee_tx": "5gzhLvMbU9w2o6emok3NXiiivSWQycnYgJFJUzaAmyGScRw2g2DoYmcQoGQN3J7obhZ6ah9dBCYFnL41MACh9Ei6",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Sync Your Data in Real Time, Anywhere\",\n  \"subheadline\": \"PowerSync makes mobile apps work seamlessly even when you're offline.\",\n  \"cta\": \"Get Started Now\",\n  \"hero_body\": \"Experience the future of mobile app synchronization with SandSync. Whether you're on the go or in a power outage, SandSync ensures your data is always synced in real time. With PowerSync, your app stays connected, your files are safe, and your work is always up to date. No more delays, no more data loss—just seamless, reliable sync. Start syncing today.\"\n}",
+      "time_ms": 5251
+    },
+    {
+      "id": 17,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "3YXTAYCFZB4iQDfiSRZRw16Euv5oKJMtoRMFdv1rGmdMEognESi6Ekt8ksNU1Z8rSdz3qcFQctcCJPPMbhM2F1d",
+      "copy_tx": "2RZre3JNoEFk7NQyVzEEuSGrfXBRrU3fCkzTA4ujP9RCcfrkcARBoanQMbs4x4xTiCXBfisMU5NPK1MYca6UQtjv",
+      "fee_tx": "4FdGWKQvwqTQn1bYKny8Ed3saaNiejbCyU9cHDqZvzpVb31LgictL4ZZFJ2CdGTg15Yuh8Ake8bERzbXnJz17Kvr",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Sync Your Data in Real Time, Anywhere\", \"subheadline\": \"PowerSync makes mobile apps work seamlessly even when you're offline.\", \"cta\": \"Get Started Now\", \"hero_body\": \"Whether you're on the go or offline, SandSync ensures your data is always synchronized in real time. PowerSync powers the seamless experience you expect from your favorite mobile apps—without interruption, without delay. Stay connected, stay productive, and stay in sync.\"}",
+      "time_ms": 4673
+    },
+    {
+      "id": 18,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "42xJBRLeAiNxSzd7coqyhuNwvQaumb4PCbxa1QK2ZkTdoFSDkszKrLdC43VDEpt1LNzgGmmn2Z3yHYwVWb1Y2DKr",
+      "copy_tx": "5G61ukExw6xeE2mmAFDCPVTNw4uf8cntAT4CMX8aBY5eg1oDiKAsAmq5qVs1VCzmrs4o2fXptKrqA5GqQtaNmCBj",
+      "fee_tx": "4itDTHAHQVBQmJ2N7QdKmNMAKdJZgrQU92FmG4a981pjLJYZLkPc65mahQM4K3xGrtY5gnxFEy82qZVew7fYYPNm",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Sync Every Moment, Anywhere\",\n  \"subheadline\": \"Real-time offline-first sync with PowerSync for seamless mobile experience\",\n  \"cta\": \"Get Started Now\",\n  \"hero_body\": \"Experience the future of mobile app sync with SandSync. Designed for the modern mobile user, SandSync ensures your data is always up to date, even when you're offline. With real-time synchronization, you'll never miss a beat—whether you're on the go or in a location with unreliable connectivity. PowerSync enables efficient, reliable sync across devices, keeping your data consistent and secure. Whether you're working on a project, managing tasks, or staying connected, SandSync delivers the power you need. Start syncing today and transform the way you work. Get Started Now.\"\n}",
+      "time_ms": 5796
+    },
+    {
+      "id": 19,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "471jgKD9muwypxeAo6VdumZbwHZjWqJAR9KC1gn5pHSZQoZJuDtoZsNTDwBTbACNs6tnqvVCUHpJt61q2BiMwGRk",
+      "copy_tx": "3FPcw1hH2ffBfbwTwFBzKEkcQ2T9oSMdWqopKN1X7dCwkw4gqzoSVZRJuHFGTxG99hVbcTJ8igrMRiy8ndPkJrRb",
+      "fee_tx": "5Cy8aZe9oXpqi9Qd5KcNdzt6k4GhghuqrjeVaTjotggvreRQiDNfGbw7WxCXUcNyWsFWi4XoEuyeKhfy1GPpfBZ7",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Sync Everywhere, Always\",\n  \"subheadline\": \"Real-time offline-first sync with PowerSync for seamless mobile app experience\",\n  \"cta\": \"Get Started Now\",\n  \"hero_body\": \"Experience the power of real-time offline-first sync with SandSync. Whether you're on the go or offline, your data stays connected and synchronized. PowerSync ensures seamless sync across devices, keeping your information safe and up-to-date. Stay productive, stay connected, and sync effortlessly. Get started today.\"\n}",
+      "time_ms": 4566
+    },
+    {
+      "id": 20,
+      "product": "SandSync: real-time offline-first sync engine for mobile apps using PowerSync",
+      "ux_tx": "2JEe5fdbfrKZqzPTMSoarnqVGX8GC7MZdvHc2fT4Nj3Vgyzav1WXjGGwfGNWiGe823S8qbG57fpM7YTnqadjiYXH",
+      "copy_tx": "1wZuEUd7Wc9d7y56wJfVEeReDWEeLXvFiuKTMstxMexTrwwiTvsHwFx3bDCoyBUz3hFYgdbePHghfwZiVwvdZZL",
+      "fee_tx": "3FVdSEG3chkvkLMeqBY6VYyh2kpVC4TRt6yYexhzbwbnfgpfSbNF1ncLnSAt8YmV4p8heNWGr1VrecLUTCurHeEC",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Sync Everywhere, Always\", \"subheadline\": \"Real-time offline-first sync with PowerSync for seamless mobile experience\", \"cta\": \"Get Started\", \"hero_body\": \"Experience true mobility with SandSync — the powerful, real-time offline-first sync engine that keeps your data safe and up-to-date, no matter where you are. PowerSync ensures instant synchronization, so you're always connected, even when you don't have internet. Whether you're on the go or in the office, SandSync delivers the performance and reliability you need. Start syncing today and take control of your data, anywhere, anytime.\"}",
+      "time_ms": 5599
+    },
+    {
+      "id": 21,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "K7FfyR9EJps6LFmSYq82ht4zu6Urxm3nEfugepcQoko5bAnKfdCBe3DSEVmYo2kyNho1qKzGhU7JtzfRsZMy6Se",
+      "copy_tx": "2YT8mynJFWMaASLWkHJMSm73SdpoHxvPVjdApfAKfcMuY9woTVpQyQcq57gvtkzXQhC7EaiNDDwFeQwv2iJAymmj",
+      "fee_tx": "3toqidv4u8fRaXWTi9e2mrFTHwoHWPT493tZZUTPqGHCiDesaVXqRR8z8THdEtjigR3tx6oZhkvn5xURS2sUsgca",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs that teams can fork and run\", \"cta\": \"Start Building Your Pipeline Now\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Teams can fork and run their own pipeline specs, ensuring consistency and efficiency across projects. Whether you're building data pipelines, automation workflows, or complex processing chains, OpenClaw provides the foundation to accelerate your development. Start building your pipeline today.\"}",
+      "time_ms": 5067
+    },
+    {
+      "id": 22,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "4382fQH2uy6ybYVeZHjTgYXTg9dzbyrdekui77SpQdWoSHtnhxM5Z96hXCze3xg56JyDN2T7yJmST36dA2382tKj",
+      "copy_tx": "4cwjh7WYtgvy7VwpspyQmmevHdgzTgHt9P2XjwSW7nF2b9PK2jX9kEohqNCkTd7V2dCFBEH4uAMZAV54JWjbwiWg",
+      "fee_tx": "2k3oXEW9EgZ2PTxdJtKzUinpXG3Z9SXGsJSWM4Pa3sBAveViBk9Q3XxCkcGbSM5gz4RLthrxPYs9bAVFk4ys3FQd",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs that teams can fork and run\", \"cta\": \"Get Started\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Whether you're building data pipelines, integration workflows, or complex processing chains, our playbooks let you fork and run them exactly how you want. Define your process once, use it everywhere. Save time, reduce errors, and empower your team with flexible, maintainable code. Start building your next pipeline today.\"}",
+      "time_ms": 5142
+    },
+    {
+      "id": 23,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "3be1Ag1ugJxxtaXYVBHwMoHoGWp11QURwi9rorYNRPkLEtZaxFoYyqYP7rZUE2vwFvKQ1QXsJMQfJeEKHoMqrSSt",
+      "copy_tx": "3ySphjyKYBwMhcFK22xku14surc5Nn7GPg9A3ppNGkG7BsD3uXVxX28Mpm8GXd3qswsth1zbhsnjvyb5A9ymeXbS",
+      "fee_tx": "441tkRHjiSpep2mVqeRmkTs64ZnmicY2weLQzY79BReWUuXCsfhWkdmZVViWVMuWQm5aha3J4sBRM2Bk2uNQM246",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable, scalable, and powerful multi-agent pipeline specs for your team\", \"cta\": \"Start Building Your Own Pipeline Now\", \"hero_body\": \"Create, share, and run your own custom pipeline specs with OpenClaw Playbooks. Whether you're building a data pipeline, a machine learning workflow, or a complex automation chain, our reusable multi-agent pipeline specs let you fork and run them exactly how you want. Get started with your first playbook today.\"}",
+      "time_ms": 4748
+    },
+    {
+      "id": 24,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "4urJHmAPxqGU2kkaBEfQYxtWzNpNhjd4dupRhGAdX4urutYTR9xjjzvntT6PrF21NpYu6AbBz3eKmvXNUCXgK3RB",
+      "copy_tx": "437thenNFHWpFkeFbu7g6dX5adDdHWfcd4q9D5gip99JDKm5f1navPkFFWpx45NzexTvKdCULyRb89KAsBSwCJ7D",
+      "fee_tx": "QwZCgxo7NPKRr7mHtEje9Fju8MAQMiBncxMYdBGETaAwLeZTryEFGvhJtJsjoSYvRdQNwQSVCwPnwpkCo8UK3JD",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs for teams to fork and run\", \"cta\": \"Start Building Your Pipeline Now\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Whether you're streamlining data processing, automating workflows, or integrating systems, our playbooks let you fork and run your own pipelines. Build faster, collaborate better, and innovate with confidence. Get started today!\"}",
+      "time_ms": 4712
+    },
+    {
+      "id": 25,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "d2nNfCREj7KxL3YbXYuwNdeieHTMbxYWbaEV7Woy38xwCQADKjwoQjuX5XrNJG6p2aWVBVRvonQrxPqij2QvnQh",
+      "copy_tx": "2sxxeMaLaoxh1uhr2enPPVM7GpYPvwigAz1mPnd2DxoFaF4d3kbQtF8rqk5yHxXgXa1JdScewvAwBxgmcM1kwQrS",
+      "fee_tx": "4xJGhVpeb9whwqg4XDSPpm4sjfjJCgtu7uoH9wnxNJ2omdD7iL3oTyEZ3jVEiuUn81rqJeU2cgyNm6NLgGoyvt1Q",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs for teams to fork and run\", \"cta\": \"Get Started\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Whether you're building data pipelines, automation scripts, or complex workflows, our playbooks let you fork and run them exactly as you want. Build faster, collaborate better, and streamline your processes with the tools you need.\"}",
+      "time_ms": 4933
+    },
+    {
+      "id": 26,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "3akeARCXV4kBVhpL1Gr4xe3pkrPq6Y16ETDRdakZ1hCFgKZPdWybuJEtW9oq9WHeRgkPx1zw6seZrDXzWCACRhmX",
+      "copy_tx": "TRsEVe1GqvknjjFPaRS73ddyCWzHBJcDn1WuKqP5m3GhR67ohSG2Vqjm5YuTkvNdR5nSwFgsx92p1iBRpXqv1dX",
+      "fee_tx": "25e5QoZxraX3fUvC7Kpe8fz8hqno6Hq5ZMnwrPQQryGeS54sNTv8mtwPiMK6SiS3GG6Wirs95SDk7ux9wxghjg77",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs for teams to fork and run\", \"cta\": \"Start Building Your Pipeline Now\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Whether you're streamlining data processing, automating workflows, or integrating systems, our playbooks let you fork and run your own pipelines. Build faster, collaborate better, and stay ahead of the curve with every new workflow you create. Start building your pipeline today.\"}",
+      "time_ms": 5126
+    },
+    {
+      "id": 27,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "53Jdfz7x41DKdW91513DeR8uRoXoEhfPCZLtfQuvNDDqmFrrv1d6cUKT2SJqgVMbHHdPakxRBZxyzf2kKQT2UD1L",
+      "copy_tx": "2Xsc2VHCHfxALavAsUbXFnXugdsgfsUefvTGF4j2YD7qKBMmKf256xoaJhMEDHgoxu3t6nDgZk2u65hYfimo7gEF",
+      "fee_tx": "5jafMWxgWsXYGk9xsapCKWvGSUuNe5UsVxJuF6ytcVZ3zrUrPYsaMiFZ1scqTyNQJR4GrHUcVmqZRyJPsXbWsqgQ",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs that teams can fork and run\", \"cta\": \"Get Started\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Teams can fork and run their own pipeline specs, ensuring consistency and efficiency across projects. Automate your processes, reduce duplication, and accelerate innovation. Start building your next pipeline today.\"}",
+      "time_ms": 4688
+    },
+    {
+      "id": 28,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "25oXKVfg5UTBKEGTeKVuEf7RkWx3xn5tf8Lnfnkfev6VU9ttgQiiVi2f74GuXhHX54FTfDdNxajSczmvbAuKp1Hp",
+      "copy_tx": "4meoRdYnexUSwF2ghvPTDHVREczyR4xAeJAiVKz6pzSkvQUPpRjes2nPzBFgBmHKPCv9f8R19PWUHwM3bQpHiN3S",
+      "fee_tx": "4sGXLXHDo3h4Em3Kp38RvB1vNrfEcDNxyLS853E7yXo7a7sesuYjktXbFXDeUB8mppxLD5EeKts9jcz2L2hCPofM",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs that teams can fork and run\", \"cta\": \"Get Started\", \"hero_body\": \"Create powerful, customizable pipelines with OpenClaw Playbooks. Whether you're building a data processing workflow, a machine learning pipeline, or a custom application, our reusable multi-agent specs let you fork and run them exactly as you want. Define your process, share it with your team, and scale effortlessly. Start building your next big thing today.\"}",
+      "time_ms": 5543
+    },
+    {
+      "id": 29,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "326NueRF3F4KCRHqeJ51yuWQ3FWfgPjtBb4ZZqH8Ep52hgDqe5jXpPqCXHuyL4ejehPd6e2USCCPuoFAQHPQzoqM",
+      "copy_tx": "4M7mqLj2fsABpbEn7KX1o1mgD3AHinzFRVJyHJ8Hsb2C8Gpbo8nT9k2fz3C7qoVZZX1n5TGJfSnfUwvkoV54JMki",
+      "fee_tx": "2yHzYVWbnMGPVzbSMggbXeMQURnVfa5F3y93c5z6rQirHcYFAHu1FitttNDzkgNdXs1jYDa9fzuMvVyvFR8kNEbe",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable, scalable, and customizable multi-agent pipeline specs for your team\", \"cta\": \"Start Building Your Pipeline Now\", \"hero_body\": \"Transform your workflows with OpenClaw Playbooks. These reusable, multi-agent pipeline specs let your team fork and run any existing process, saving time and ensuring consistency. Whether you're building a data pipeline, a machine learning workflow, or a custom process, OpenClaw provides the foundation to scale and iterate. Get started today and take control of your data pipelines with ease.\"}",
+      "time_ms": 6293
+    },
+    {
+      "id": 30,
+      "product": "OpenClaw Playbooks: reusable multi-agent pipeline specs that teams can fork and run",
+      "ux_tx": "4gcJpudutg3vQuqJSDsqtuWv66mEsHWjbnopakPHMTR6Lxn5Gb2F52LYMcAB2UWuArWYyZb611RgQJVTsSyDJ5yd",
+      "copy_tx": "kqwfKBsEGzP6fWbagyDh7QoksWSZYD71ZsEVpaDy7AVJnMryhXUfKdgtHgfM8DV5yecGWodp4dDdDcBv1H6HAVS",
+      "fee_tx": "4zbyqgywp9AP6vxpebuqhwaYoMRySYbRu8ngLZj9kMFDadu8BLBGRimmjietLhaCTLYVXoVjrGAX6Rq4oem5esKi",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Build Your Own Pipelines with OpenClaw Playbooks\", \"subheadline\": \"Reusable multi-agent pipeline specs that teams can fork and run\", \"cta\": \"Start Building Your Pipeline Now\", \"hero_body\": \"Create custom workflows with OpenClaw Playbooks—reusable, scalable, and powerful. Whether you're developing, deploying, or integrating, these specs let you fork and run your own pipelines. Get started today and take control of your data workflows.\"}",
+      "time_ms": 4412
+    },
+    {
+      "id": 31,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "44ya1ExgpuSWYEsEpgXPbWbDspCzm6k1j9L4SDPpm957hwnP5hbZhnC6FR5uWuJSaEjS5Bfjvbz7MhchfZ1jPnan",
+      "copy_tx": "5GV4CTZuHxHEQrJT1enLaNhLEbskWLefdE8URmry2PaMj8xPaPo7H2aEzKFBiaB2hC1ZFfpFTu9zpa7qSomJQgdw",
+      "fee_tx": "5X9ewNwcbJhiSVu7KatBC3zdsEk8w3Htf6npqRRVwntpnBc9MaS9RB9YJHL7dFkHRkgeELiuLXNSMy8Ngw1KiNC8",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Cup Every Time\", \"subheadline\": \"Sip, savor, and feel the difference with AI-powered taste matching.\", \"cta\": \"Subscribe Now\", \"hero_body\": \"Barry Starr Coffee delivers a unique experience with every brew. Our AI-powered system matches your taste preferences to curate the perfect cup of coffee every time. From rich espresso to smooth single-origin blends, we tailor your experience to what you love. Join thousands of coffee lovers who trust us to find the perfect cup—every single time.\"}",
+      "time_ms": 4917
+    },
+    {
+      "id": 32,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "25ZvxyKFfFeQYWC6LoGTP5puT5PiomYiXRQnuA4CwFLb2DLS42wDHdi5cPAJNF4LpnMxYxHv1uzmUCNHgTM1i57t",
+      "copy_tx": "13m3bAznSWkQezhDhpnT1Qy84zSivzzrtCQdaS6H2EUhkY8319zMDbDZjkdRH8RdqR7W3RgneNfP7aLwRZPdjvQ",
+      "fee_tx": "Pmh6iAvFPnNRJ84AMHTZKoBvLDs9jGVKEWDHpCimamb6SJJx6SL3oKQZetaygyrLWBZKxUxyvCmDrhHPNq2S196",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Experience the Perfect Cup Every Day\", \"subheadline\": \"Barry Starr Coffee delivers personalized coffee experiences with AI-powered taste matching.\", \"cta\": \"Subscribe Today and Taste the Difference!\", \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee uses AI to match your taste preferences with every brew. From riches to bold, smooth to sour—your favorite flavor is just a sip away. Join thousands of coffee lovers who’ve discovered the perfect cup with every order. Subscribe today and let your taste be the star.\"}",
+      "time_ms": 5406
+    },
+    {
+      "id": 33,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "5wh1P5ab5BsMdAZnkt5dQnPMHayH9PjLqHbpC9xHY2yqDk9wSzjzqo7edPU5s7JkGBenGdcnzDnxNbhUvU81xCFL",
+      "copy_tx": "zB21GtfhU81w5XZieJ4zYSNrgATuG9gTijy6Ls9hM1xzmhwqoD8WU6wyuX6pfvY2pmdqipcW3GVivWAsKzNpJgA",
+      "fee_tx": "4cD6q5PjKEX6hNE6Ga7VwXsQ1ENutjKSZ1SQ854jGw5BZNLFUcPycVhfWXbyhAsnpjzu96x9v8ZHjyBN7yeWKyLP",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Perfect Brew with Barry Starr Coffee\",\n  \"subheadline\": \"AI-powered taste matching delivers premium coffee every week\",\n  \"cta\": \"Subscribe Today and Taste the Difference\",\n  \"hero_body\": \"Experience the perfect cup of coffee every week with Barry Starr Coffee. Our AI-powered system analyzes your preferences and curates a unique blend tailored just for you. From rich espresso to smooth latte, we bring the best of specialty coffee to your doorstep. Join thousands of satisfied customers who love the taste, quality, and convenience of our subscription service. Taste the difference. Subscribe now.\"\n}",
+      "time_ms": 5804
+    },
+    {
+      "id": 34,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "3K6hY7bZVDdRwkBCesZAiRmK1NWqH8g6JKhWK8y22MjbVtRF2MkjnzeAVW2N6dCRUzq7bbrNCiEsmkaPMpXGBBMP",
+      "copy_tx": "4BDbyS9pD3hRGC7jSGgdjcrv2xtyuwqjsBbg7Xe31k34EM5jTvQCo8CUQnDtdMzuWrFhSU7UtDMCRB6jyxCNVQVb",
+      "fee_tx": "PMxaX8EQaDEd7V5kupU3xXoGjPZTCRtbVfR4ewXgykV3eZpX9vX5vtgR445QPmXSV7xMQFERWTr71pvao5wruAj",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Cup Every Time\", \"subheadline\": \"Enjoy premium coffee with AI-powered taste matching\", \"cta\": \"Subscribe Now\", \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee delivers personalized, premium coffee experiences using AI-powered taste matching. From your favorite brews to new discoveries, we curate the perfect cup for every palate. Join thousands of coffee lovers and unlock the perfect flavor every time. Subscribe today and experience the difference.\"}",
+      "time_ms": 4879
+    },
+    {
+      "id": 35,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "oTm14s3eLq6kkshXMEWg97yVYL522QGuwv9cd7kbQXe5VuFdGSBtzcoJEdyoeQUhigczzKu8gSk2fw1jmt3b3o2",
+      "copy_tx": "2d2MGh2SBkrZWzqWUHNyNQh2kGSkTo5rKyF3zQaQaoXEiPzN7vvrQZes3tr65MnWRYK5wevGe9t6594WJDCwPNkX",
+      "fee_tx": "3WvsKcNiGhRYKXacaH7R6Upy6sStsqrGqGUJjzcgUfvPRKWaMdgrfBBmGpmigasyKK18EVe7ws312KpbpFGmGaJQ",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Cup Every Time\", \"subheadline\": \"Get personalized coffee experiences with AI-powered taste matching\", \"cta\": \"Subscribe Now\", \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee delivers a unique blend of quality and personalization. With our AI-powered taste matching, you get the perfect cup every time—no guesswork, no guessers, just the right flavor. Enjoy your favorite brews with confidence, crafted just for you. Subscribe today and experience the difference.\"}",
+      "time_ms": 5147
+    },
+    {
+      "id": 36,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "2STRqxc72BS4FgZSx6YndokMUYroNMykenQGdeABWy9FZEf6Ektdv3TCrcekMUa6iiW4XSC3pTHo62QF85XUAns",
+      "copy_tx": "2nYzLnTLHDTgR4LYCTBztEaU1AZAdrJsdxHozxTtoV8LqZLiiCoLEWnMeqJc5PoHrGVFGUETa3PDY46MaT9e169s",
+      "fee_tx": "3ZSV66pfPVegXFrtgmUiKDGyqBZzirwmDntspEERkpSQJL4Rc1bxypbxP2i7oNNsMqX6jgwn526otPfdFSMwmEn2",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Experience the Perfect Brew Every Time\", \"subheadline\": \"Get personalized coffee recommendations with AI-powered taste matching\", \"cta\": \"Start Your Free Trial\", \"hero_body\": \"Discover the perfect cup of coffee tailored to your preferences. With Barry Starr Coffee, every sip is a surprise. Our AI-powered system analyzes your taste preferences and delivers handpicked, high-quality beans that match your palate. Enjoy the perfect blend, every time. Start your free trial today!\"}",
+      "time_ms": 4615
+    },
+    {
+      "id": 37,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "vQiarTc4JrBAckM6zfwZgJiKqiPwb4pMddGQTcJ24Dg6WATcnzrNHQvtQX4g9JzkZzdV37pvFH2L7fXdYyisut9",
+      "copy_tx": "63UmDGnybFxekHAxRt4qjKgmKrfPSy2HFmqjQznejspc1aSVVgudBuxDBaWtPyfVZFdRLiT5A29UVmo8ShrreKsz",
+      "fee_tx": "2j8npQ2x5gbuJPCia3z8t91bE7yjaDQMZPSUWgPx8w9bn6FzNrpAcAwiN3H4xHScUzwU8YTQrU3gdRUYGQUihTZr",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Perfect Cup with Barry Starr Coffee\",\n  \"subheadline\": \"Your daily dose of exceptional coffee, powered by AI taste matching.\",\n  \"cta\": \"Start Your Free Trial Today!\",\n  \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee uses AI to match your taste preferences with expert precision. Enjoy a unique blend tailored to your palate, delivered every week. Experience the difference with every cup. Start your free trial today!\"\n}",
+      "time_ms": 5201
+    },
+    {
+      "id": 38,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "4kG3SJBVThGJ69FySezV8KuDfqX9bRXuUySgqBsFQE8Rb5QVuEyVMgxqemZnNDFMa84B3oHttvbX4xdeLUeRU9pb",
+      "copy_tx": "xZ6oqhtZVWxGD4gbVegYuHGgMoWvGwyZQFCNSJYEiJRWiinJWE7bFysuXCqkmfb3p9sJchQ35k8PbKu4ehuvUqP",
+      "fee_tx": "2f8PLq4VySLccTUucBj9G92Y3Bhu6wQyDSArV5BLVd4hAKD8FCifHtUbjByPyi5e9JWWAayT3gQBrPxoaULDgxi7",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Cup Every Time\", \"subheadline\": \"Sip, savor, and be amazed with AI-powered taste matching.\", \"cta\": \"Subscribe Now\", \"hero_body\": \"Experience the perfect cup of coffee every time with Barry Starr Coffee. Our AI-powered system analyzes your preferences and delivers a curated selection of premium coffees tailored to your taste. From rich醇香 to bold and bright, we ensure every brew is just right. Join thousands of satisfied customers who love the convenience and quality of our subscription service. Taste the difference. Subscribe now and let your coffee be your favorite.\"}",
+      "time_ms": 5529
+    },
+    {
+      "id": 39,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "33qvhFwxR2bm3MWnq2Er7KfrsBTaJWkfT7gwqRMzLtY7FyV3QYRpDSF1ZK7JjfJmhCuq87c1RpW7Z6NVDB39i5fn",
+      "copy_tx": "64Lr9LctzrEi7MNiQp5jN264ME9c17gb3CgptxF5DNjDJvXY6SaPk4Jb64LZFpzmbUF8BnUYccohCHggsz7SAJH7",
+      "fee_tx": "4TtduX7mXSJH6ydhEVs5p4U8QsrbkWtsGoMC4o2ms5dxTw1UgFrHi6XjvxFhHbqxQQ3KqyaeieaLwATgATP1fWw9",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Brew with Barry Starr Coffee\", \"subheadline\": \"Get personalized coffee recommendations every week with AI-powered taste matching.\", \"cta\": \"Subscribe Today\", \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee delivers personalized coffee recommendations every week using AI-powered taste matching. Whether you love bold flavors, smooth textures, or complex aromas, we curate the perfect brew for your palate. Join thousands of coffee lovers who enjoy delicious, unique cups every week. Subscribe today and experience the perfect cup of coffee tailored just for you.\"}",
+      "time_ms": 4987
+    },
+    {
+      "id": 40,
+      "product": "Barry Starr Coffee: specialty coffee subscription with AI-powered taste matching",
+      "ux_tx": "2S9eVd9gfMxR2TQdLmAjs1UoGDt8rDeeqMXCZr29GjR8EVWcvDK1wCDhCRwHKRqwqp9tJ8eeBPFbfMYhrTj8VLFd",
+      "copy_tx": "2tGrcsjt1fWi7QvSihq6wU9fiG6cAo893KZstA1mgrRGvWUJM8pLmHfzRkCQQV61GjqUhQHVMfvWig7ALASuiUhk",
+      "fee_tx": "3DzJ81zpsvkdU9Y2yXKzv5eoDLfD1MbtBKUYg61o5ezu5yuBqbZcUtiXNbMRZJr3ChMGzZJYYbyDKRqHmV6QWrEK",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Perfect Brew with Barry Starr Coffee\", \"subheadline\": \"AI-Powered Taste Matching for Every Cup\", \"cta\": \"Subscribe Now\", \"hero_body\": \"Tired of tasting the same coffee every day? Barry Starr Coffee uses AI to match your taste preferences with precision. From riches to light, bold to smooth, we curate the perfect brew for your palate. Join thousands of coffee lovers who've found their perfect cup with just one click. Subscribe today and experience the magic of personalized coffee.\"}",
+      "time_ms": 4859
+    },
+    {
+      "id": 41,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "2ncseXYoGi1dzuPfZfEzTSbWnrx2ynCBhkwPuLstzRrooU1ZFwscZBSbum8Qk1rVVVdVbrB2tR6eLUK1PoUFSY7g",
+      "copy_tx": "3atZqi54BtPYgbza2pxDrX9uyXxwwMaXoSMRn1otLSjCCBcUZdHmYUbjiqfZs5ncVbZBLWPv9FCqkA6ZCkPuiqCd",
+      "fee_tx": "3P5DVHWdyeN1bWzjdZtYe7abBh6Ccuaa1e5PQymkCk6iNpbRe3mDFihW2pQZtwkwTtFhpPQna3J6fgxBB5spHreD",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Magic of Caribbean Folklore\", \"subheadline\": \"Explore enchanting stories told by AI to ignite imagination and curiosity in children\", \"cta\": \"Explore the App\", \"hero_body\": \"Step into a world where tales of ancient gods, mystical creatures, and legendary heroes come to life. SandmanTales uses AI to bring Caribbean folklore to life, offering children a unique journey through rich stories and cultural heritage. With interactive animations and immersive experiences, this app makes learning fun and engaging. Discover the magic of the Caribbean and let your imagination wander beyond the ordinary.\"}",
+      "time_ms": 4699
+    },
+    {
+      "id": 42,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "5DuvERZKTQo9UokPEzEh9wjxoZa4jWbtn4wMPHLByj5KH9JPEax6DMgyQymKoE9VstCUzL9nxBDcmW16AfNDixEE",
+      "copy_tx": "5Z7Tjgic7XhRnk8KsiLefcVam1Ym35zGEchr2iHuWHKb2GHNmykw4jG5DWdpFBTTzeahw7nPr6JvaH2gohjMEZTX",
+      "fee_tx": "4zCdioFEskXbSZ2GMQFsyPyR29YgWs1UL1Qs23Ws8REhiiNQHTV8GyUwCUNBP3og2H25Qq2zc7RYSwidXDnuZKhA",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\", \"subheadline\": \"AI-powered storytelling for young minds\", \"cta\": \"Explore the Tales\", \"hero_body\": \"Unleash the secrets of the Caribbean with SandmanTales—where ancient stories come to life. Learn about mythical creatures, legendary heroes, and mystical traditions through an interactive, AI-driven experience. Perfect for curious children and storytellers alike. Explore now and let your imagination wander.\"}",
+      "time_ms": 4833
+    },
+    {
+      "id": 43,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "4LVehxyZGBNxdZXHEYsLjeB4tnq3j4oysKtpF4hatwozqyy9iL1PejxsLyxkjfRGfUh1FDWW3PyrHyWkFNnBwM4R",
+      "copy_tx": "21b4wTj2isTp72mqJ2trWf8pSekafvM1Q4esTFWjPvKLHN1rEQnzyHPx1yWZqHjDtmuCF5s6nPB4cc1iTKa9s4Yi",
+      "fee_tx": "5nXTXrWE8i6uh8AtDVxdyzT8Vs6yHuWr5QDnqEcWL4JgbzMZsiBQkkh7Caf4EWnQHfdsgp2d5VMtb191xwNscznQ",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Magic of Caribbean Folklore\", \"subheadline\": \"Experience immersive storytelling with AI-powered tales for young readers\", \"cta\": \"Explore the Tales\", \"hero_body\": \"Welcome to SandmanTales, where every story is a journey through the rich tapestry of Caribbean folklore. With intelligent AI, we bring ancient legends, mystical creatures, and enchanted worlds to life, sparking imagination and wonder in young readers. Explore the tales that have shaped the culture, and let your child embark on a magical adventure that blends history, myth, and wonder.\"}",
+      "time_ms": 5813
+    },
+    {
+      "id": 44,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "2GdazZFo2xeM3nzxJentrKNzYuuxt1jCc2CgNUX8QQn4JG7t89q2jhXdaT2TS6JyEcPaQjduid2fpFcNAkknd6pQ",
+      "copy_tx": "2MuqAnwNm1kh5a4emNBPyp1DJz9CQtJkPJSYnnG5qJsm93LRyNEmT3DRqurcRmSrM1TfGHSRFgmxvW4ELozxXmAE",
+      "fee_tx": "Nb8sNTw2TvzY9iSiHbfyMegYS5WmvnNvfeZEPLFQpHwihso9rNsF6EdrMzutxbejHCNmMdpntPfk11kFFHPUGyf",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Unlock the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"AI-powered storytelling for young explorers and storytellers\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Discover the vibrant world of Caribbean folklore with SandmanTales—your gateway to enchanting tales told by AI. Learn about legendary creatures, mystical traditions, and ancient myths that have shaped the culture of the Caribbean. Each story is crafted to captivate young minds, fostering imagination, curiosity, and a deep connection to the rich heritage of the region. Explore the stories now and let your imagination wander through the magic of the Caribbean.\"\n}",
+      "time_ms": 5683
+    },
+    {
+      "id": 45,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "5Rm3Zireks9DjfA8HkYFCppvumUCYEB8EDMA636thrZeoBE6gqxe4j8YXoFzr9xVJGkT19FnSdg6FuhL9tJ1pVBN",
+      "copy_tx": "HVfF2knEPbeyv1rXjWHT22kpmA8peC9s5CaAQt38zkqhJ3EMKqwyZVMkUmaS45K9nJqWYW8vQLwmcyejBTNCfko",
+      "fee_tx": "5aNzmbw2KJHXuRjYv1bo1HLjdj4b9WKfKiRiRF7YdHPADDmxT8Rz9w3KJxb5VaLLE7rBkq3GtMCakFW7FxkDnfdW",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\"headline\": \"Discover the Magic of Caribbean Folklore\", \"subheadline\": \"Experience enchanting stories told by AI, perfect for young learners\", \"cta\": \"Explore the Tales\", \"hero_body\": \"Step into a world where ancient tales come to life. SandmanTales is an AI-powered app that brings Caribbean folklore to life, offering children immersive storytelling experiences. From mythical creatures to historical legends, each story is crafted to spark curiosity and ignite imagination. Explore the tales and let your child embark on a journey through the rich cultural heritage of the Caribbean.\"}",
+      "time_ms": 4656
+    },
+    {
+      "id": 46,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "4T4tQDzw4JPXafCRjodniM9bZF8v2NmAvKM37uVzppP3kRsXQzqsuN9tcyinF2m5ZASZJt5eE3kiyHGroKnsiaQ6",
+      "copy_tx": "qkyXYWGogW7LRCwJJ68vY6ak9cPGsDCHhDPDDigNWbDAd4KnGpi6Q7fxXVApnEcnPonCKBy3LcoXFwo3NNGcmEd",
+      "fee_tx": "4R1Pxccz7guZQvsuxP4z64iaHogoDg9iACRh1Ucn1gTihKhZykoCG9xP8KZnRLXVrJSYCzKpyKRMm4GuCdCs5yzW",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"An AI-powered app that brings ancient stories to life for young listeners\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Unlock the secrets of Caribbean folklore with SandmanTales—your gateway to a world of magical tales, vibrant culture, and timeless stories. Learn from ancient legends, meet curious characters, and explore the rich heritage of the Caribbean. Whether it's the stories of the djinn, the spirits of the islands, or the tales of the sea, SandmanTales brings them to life with cutting-edge AI technology. Discover, explore, and immerse yourself in the wonders of Caribbean folklore today.\"\n}",
+      "time_ms": 5161
+    },
+    {
+      "id": 47,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "4gaVCSzxBG4EwGXe9kxMDZzWUsk7o7Zt8NXyhG3d6emy8eKXNMkfyUczNuT5rWAK13DA8K3koE5MDxv6qqktpbJ6",
+      "copy_tx": "54MXduwHk9ZYLna3ep25CrV2kMKpKxSfsukG5X9fWVDS4KhKeA57ixgGAmnEtQcF4sNgqxnfGjrMKv1jgLe5hMBF",
+      "fee_tx": "4PLUrRLQpEqrVFEqWoYUVaTB4as3sJFHxHg3LcWF4HrCeYM8Y1xoqV8gZeJDPfWNx9kjAHQDVKzQ2h6dpJySw91n",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"An AI-powered app that brings ancient stories to life for young explorers\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Unlock the secrets of Caribbean folklore with SandmanTales, an AI-powered storytelling app designed for children. Journey through vibrant tales of mythical creatures, enchanted forests, and wise old wizards. Each story is crafted to spark imagination, foster curiosity, and connect children to their cultural heritage. Learn, play, and explore—because every story has a wonder waiting to be discovered.\"\n}",
+      "time_ms": 5049
+    },
+    {
+      "id": 48,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "21qcHRRigMT7UFEtxgg65HFWXPcHsnJ1SXU4xhLmbgX1iUC4arvYfFRBaWmJBW2F92NZfXYiezEmLmYUkYJYcxzQ",
+      "copy_tx": "398ZAnufBqevHTZx9fTThWukF7upE7im5UAkhSUay4vrXRWQdgoQUAUakbBiB89YnaHj3ZVbMbizk42mhw2bdY8o",
+      "fee_tx": "3U6hLGAVUpmNeQzVJikZeu9G2Wd7bC1uGK1ntaFQrTdNKCrUbJ7hcS7H45Y5GpVr1NC5ftKNmdkKvAKaxKqZSnuC",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"AI-powered storytelling for young adventurers exploring the rich tales of the Caribbean.\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Welcome to SandmanTales, where the whispers of Caribbean folklore come to life. With our AI-powered app, children can dive into the enchanting world of myths, legends, and ancient stories. From the mystical islands of the Caribbean to the vibrant cultures that shape their tales, SandmanTales brings the magic of the region to your fingertips. Explore, learn, and be amazed as you uncover the secrets of the Caribbean through interactive, immersive stories. Ready to embark on a journey through history and wonder? Tap now and let the stories begin.\"\n}",
+      "time_ms": 6614
+    },
+    {
+      "id": 49,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "2pGfFH8akKP4RPNcUHy3mkHo12CkUMjC3gX5JDN76PaRuD7FezsXs3ZzgXmLePYWQMXFPabens53pmZGQH8LfupL",
+      "copy_tx": "3txcgbtGtmGz4WHeJe692scsRuBP2ogx9NokzGvQXZtvkgpD2higibRfL6U3edvja8NvU5SqeJFiNbZUU2wCBuE3",
+      "fee_tx": "3n6XautyehH8x6zoahCyyzcoG5Ppsn3H7DBhzoJu3MDfYzdJSkLdHizmhz7MjKjfHd2Ax1MeE2Zp534R1vmoCNpS",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"An AI-powered app that brings ancient stories to life for young readers\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Welcome to SandmanTales, where the whispers of Caribbean folklore come to life. With our AI-powered storytelling app, children can explore the rich and vibrant tales of the Caribbean, from mythical creatures to wise old storytellers. Each story is crafted to spark imagination, foster curiosity, and connect young minds to their cultural heritage. Explore the world of SandmanTales today and let your imagination wander through the magic of the Caribbean.\"\n}",
+      "time_ms": 5316
+    },
+    {
+      "id": 50,
+      "product": "SandmanTales: AI-powered Caribbean folklore storytelling app for children",
+      "ux_tx": "3sGLVUw4JKV8ni7FHkzTD9vM6i349mULkQZPHVs1maAUkptyfBdDLR6gHi7WhmP4aNYxFkwbU915mkjeFkU479hK",
+      "copy_tx": "2UB2KG9p4kFnjidWVVemfsBDhucQSXWppQrycRmziJa8S3PHC2UC6e6B5PPYVewKQh9u2j4bxoti3bjLNjAAd4pk",
+      "fee_tx": "4BbPbL2T46KZDBZXQ7EdTq4mwcfd4MbZc5rTg6UQfvq6rdqs9epvQuRDh9kZpeb7gwuoMq2gMLhVhva7XDq47fa",
+      "ux_output": "{\n  \"sections\": [\"Hero\", \"Problem\", \"How It Works\", \"Features\", \"CTA\"],\n  \"hero_layout\": \"split-screen\"\n}",
+      "copy_output": "{\n  \"headline\": \"Discover the Magic of Caribbean Folklore with SandmanTales\",\n  \"subheadline\": \"An AI-powered app that brings ancient stories to life for young readers\",\n  \"cta\": \"Explore the Stories\",\n  \"hero_body\": \"Welcome to SandmanTales, where every tale is a journey through the vibrant culture of the Caribbean. With intelligent AI, we bring ancient stories to life, offering children a unique way to explore history, mythology, and folklore. From the mystical islands to the rich traditions of the Caribbean, SandmanTales makes learning fun and engaging. Explore the stories that have shaped the region’s heritage, and let your imagination wander through the wonders of Caribbean folklore.\"\n}",
+      "time_ms": 5253
+    }
+  ]
+}

@@ -58,7 +58,10 @@ async function queryVeniceAI(question: string): Promise<{ answer: string; tokens
     throw new Error(`Venice API error: ${response.status} ${error}`);
   }
 
-  const data = await response.json();
+  const data = await response.json() as {
+    choices?: Array<{ message?: { content?: string } }>;
+    usage?: { total_tokens?: number };
+  };
   const answer = data.choices?.[0]?.message?.content || 'No response from Venice AI';
   const tokens = data.usage?.total_tokens || 0;
 

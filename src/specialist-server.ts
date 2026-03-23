@@ -64,26 +64,42 @@ function hexToNonce(hex: string): Uint8Array {
 }
 
 /**
+ * Strip <think>...</think> chain-of-thought tags from qwen3 responses
+ */
+function stripThink(text: string): string {
+  return text.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+}
+
+/**
  * Call local Ollama for an answer
  */
 async function callOllama(query: string): Promise<string> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30_000);
   try {
     const res = await fetch('http://localhost:11434/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: process.env.OLLAMA_MODEL || 'llama3.2',
+        model: process.env.OLLAMA_MODEL || 'qwen3:1.7b',
         prompt: query,
         stream: false,
       }),
+      signal: controller.signal,
     });
     if (!res.ok) throw new Error(`Ollama error: ${res.status}`);
     const data = await res.json() as any;
-    return data.response || 'No response from model';
+    const raw = data.response || 'No response from model';
+    return stripThink(raw);
   } catch (err: any) {
+    if (err.name === 'AbortError') {
+      throw new Error('Ollama timed out after 30s');
+    }
     // Fallback for demo when Ollama not available
     console.warn(`⚠️  Ollama unavailable: ${err.message} — using mock response`);
     return `[MOCK ANSWER] Trustless x402 escrow payment received and verified on-chain. Query: "${query}" — specialist delivered this answer after verifying escrow PDA on Solana devnet.`;
+  } finally {
+    clearTimeout(timeout);
   }
 }
 

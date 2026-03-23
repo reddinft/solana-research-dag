@@ -6,6 +6,7 @@ resolution = true
 
 [programs.devnet]
 payment_splitter = "BpnKFaaXrktxFS3rC1LKrs9ELP53JDymBRV4mMd2umGL"
+payment_escrow = "9jLNHL4Ge6cksrp9ZnyYXszT5kK1A4Qa7GYUuvssYk8h"
 
 [registry]
 url = "https://api.apr.dev"

@@ -61,10 +61,10 @@ async function ensureFunded(connection: Connection, orchestrator: ReturnType<typ
 }
 
 async function run(): Promise<void> {
-  console.log('\n🔬 Research DAG — Solana Micropayment Demo');
-  console.log('==========================================');
-  console.log('Network: Solana Devnet | Protocol: x402-style SOL micropayments');
-  console.log('Intelligence: Venice AI (private inference)\n');
+  console.log('\n🔬 ReddiOS Research Agent — Sovereign AI on Solana');
+  console.log('===================================================');
+  console.log('Network: Solana Devnet | Privacy: Venice AI (TEE-backed inference)');
+  console.log('Protocol: x402-style SOL micropayments for knowledge access\n');
 
   const connection = new Connection(DEVNET_RPC, 'confirmed');
   const orchestrator = loadOrCreateOrchestrator();
@@ -73,9 +73,9 @@ async function run(): Promise<void> {
   await ensureFunded(connection, orchestrator);
 
   const questions = [
-    'How does Solana achieve high throughput and TPS?',
-    'What is the x402 micropayment protocol for agents?',
-    'How do research DAG agents coordinate knowledge sharing?',
+    'What are the key privacy risks of cloud AI assistants like Meta AI?',
+    'How do Trusted Execution Environments enable verifiable private AI inference?',
+    'How can Solana micropayments create a trustless market for private AI compute?',
   ];
 
   const jobs: ResearchJob[] = questions.map((q, i) => ({ id: i + 1, question: q }));

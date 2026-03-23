@@ -36,7 +36,7 @@ async function queryVeniceAI(question: string): Promise<{ answer: string; tokens
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b', // Available model (llama-2-7b-chat no longer available)
+      model: 'mistral-31-24b', // Best available model on Venice AI (confirmed 2026-03-23)
       messages: [
         {
           role: 'system',
@@ -90,7 +90,7 @@ export async function processRequest(req: ResearchRequest): Promise<ResearchInsi
       question: req.question,
       insight: answer,
       confidence: 0.85, // Venice AI confidence
-      sources: [`Venice AI (llama-2-7b, ${tokens} tokens)`],
+      sources: [`Venice AI mistral-31-24b (${tokens} tokens, TEE-backed)`],
       paymentVerified: true,
     };
   } catch (err) {
